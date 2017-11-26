@@ -28,8 +28,9 @@ before_action :find_item, only: [:show, :edit, :update, :destroy]
     if @item.update(item_params)
       redirect_to item_path(@item)
     else
-      render "edit" 
+      render 'edit'
   end
+end
 
   def destroy
   end
