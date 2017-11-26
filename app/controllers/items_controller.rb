@@ -33,6 +33,8 @@ before_action :find_item, only: [:show, :edit, :update, :destroy]
 end
 
   def destroy
+    @item.destroy
+    redirect_to root_path
   end
 
   private
