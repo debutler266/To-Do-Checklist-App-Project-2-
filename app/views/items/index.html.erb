@@ -1,15 +1,9 @@
 <% if user_signed_in? %>
   <% @items.each do |item| %>
-<% if item.completed? %>
-
-  <h2 style="opacity: 0.7;"><s><%= link_to item.title, item %></s></h2>
-  <p style="opacity: 0.7;"><%= item.description %></p>
-  <p style="opacity: 0.7;">Completed <%= time_ago_in_words(item.completed_at) %> ago </p>
+  <h2><%= link_to item.title, item %></h2>
+  <p><%= item.description %></p>
   <p><%= link_to "Mark as Completed", complete_item_path(item), method: :patch %></p>
   <p><%= link_to "Delete", item, method: :delete, data: { confirm: "Are you sure you want to delete?" } %></p>
-
-<% else %>
-<% end %>
 <% end %>
 <% else %>
 <%= render 'layouts/static_landing_page' %>
