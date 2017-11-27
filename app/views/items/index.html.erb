@@ -2,7 +2,8 @@
   <% @items.each do |item| %>
   <h2><%= link_to item.title, item %></h2>
   <p><%= item.description %></p>
-  <%= link_to "Mark as Completed", complete_item_path(item), method: :patch %>
+  <p><%= link_to "Mark as Completed", complete_item_path(item), method: :patch %></p>
+  <p><%= link_to "Delete", item, method: :delete, data: { confirm: "Are you sure you want to delete?" } %></p>
 <% end %>
 <% else %>
 <%= render 'layouts/static_landing_page' %>
