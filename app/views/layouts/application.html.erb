@@ -23,7 +23,8 @@
           <% end %>
           </ul>
           <% if user_signed_in? %>
-          <%= link_to "New Item" %>
+          <%= link_to "New Item", new_item_path, class: "navbar-text navbar-link navbar-right" %>
+          <% end %>
       </div>
     </nav>
 
