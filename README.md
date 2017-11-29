@@ -1,24 +1,9 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a to-do checklist/grocery checklist application that I created for my Project 2 at GA with a one-many relationship.
 
-Things you may want to cover:
+In this application, I used ruby on rails and the devise gem specfically for user authentication/sign-in/sign-up/etc/.
 
-* Ruby version
+This is a Ruby On Rails application that allows users to create items for their personal checklist. Users are only able to view the items that they have created upon signing into the app.
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Items in each users individual checklist can be marked as complete, edited, and deleted.
