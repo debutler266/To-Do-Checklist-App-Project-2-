@@ -1,6 +1,6 @@
 # README
 
-This is a to-do checklist/grocery checklist application that I created for my Project 2 at GA with a one-many relationship.
+This is a to-do checklist/grocery checklist application that I created for my Project 2 at GA with a one-to-many relationship.
 
 In this application, I used ruby on rails and the devise gem specfically for user authentication/sign-in/sign-up/etc/.
 
