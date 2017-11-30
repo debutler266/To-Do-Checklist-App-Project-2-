@@ -25,11 +25,14 @@ Minimal Bootstrap gem was used to render Navbar css buttons (Sign In/Out/Log out
 - Heroku
 
 # Features
--Ability for all users to:
--Sign In
--Sign Out
--Log In
--Create,update,destroy,edit any item
--Assign item an id in the console
--view all checklist items
--Create an item with or without a description
+- Ability for all users to:
+- Sign In
+- Sign Out
+- Log In
+- Create,update,destroy,edit any item
+- Assign item an id in the console
+- view all checklist items
+- Create an item with or without a description
+
+# Example/View of Check-List app
+![Checklist-App] (https://imgur.com/a/25S8y)
