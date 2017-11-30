@@ -15,8 +15,8 @@ I used the devise gem to institante all the necessary fields and give fuctionali
 Minimal Bootstrap gem was used to render Navbar css buttons (Sign In/Out/Log out), and to render the welcoming sign "jumbotron" on the static landing page. 
 
 # Techonolgies/Programs used
-Devise
-Ruby on Rails
-Bootstrap
-postgrsql
-heroku
+- Devise
+- Ruby on Rails
+- Bootstrap
+- postgrsql
+- heroku
