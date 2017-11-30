@@ -23,3 +23,13 @@ Minimal Bootstrap gem was used to render Navbar css buttons (Sign In/Out/Log out
 - Bootstrap
 - Postgrsql
 - Heroku
+
+# Features
+-Ability for all users to:
+-Sign In
+-Sign Out
+-Log In
+-Create,update,destroy,edit any item
+-Assign item an id in the console
+-view all checklist items
+-Create an item with or without a description
