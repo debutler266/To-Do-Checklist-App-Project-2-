@@ -21,5 +21,5 @@ Minimal Bootstrap gem was used to render Navbar css buttons (Sign In/Out/Log out
 - Devise
 - Ruby on Rails
 - Bootstrap
-- postgrsql
-- heroku
+- Postgrsql
+- Heroku
