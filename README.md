@@ -35,6 +35,6 @@ Minimal Bootstrap gem was used to render Navbar css buttons (Sign In/Out/Log out
 - Create an item with or without a description
 
 # Example/View of Check-List app
--(https://imgur.com/a/25S8y). 
-- https://imgur.com/a/vmQJY
+- (https://imgur.com/a/25S8y) 
+- (https://imgur.com/a/vmQJY)
 
